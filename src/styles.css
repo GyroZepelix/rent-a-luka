@@ -1,1 +1,66 @@
-/* You can add global styles to this file, and also import other style files */
+/*
+#172040
+#fcfcfc
+#c1def0
+#86c1e5
+#4ba4da
+*/
+
+@font-face {
+    font-family: "Numans";
+    src: url("src/assets/fonts/Numans/Numans-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Mate";
+    src: url("src/assets/fonts/Mate/Mate-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Mate";
+    src: url("src/assets/fonts/Mate/Mate-Italic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "SourceSansPro";
+    src: url("src/assets/fonts/SourceSansPro/SourceSansPro-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SourceSansPro";
+    src: url("src/assets/fonts/SourceSansPro/SourceSansPro-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SourceSansPro";
+    src: url("src/assets/fonts/SourceSansPro/SourceSansPro-Italic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "SourceSansPro";
+    src: url("src/assets/fonts/SourceSansPro/SourceSansPro-BoldItalic.ttf") format("truetype");
+    font-weight: bold;
+    font-style: italic;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Numans";
+}
+
+body {
+    background-color: #fcfcfc;
+}

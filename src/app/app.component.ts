@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'rent-a-luka';
+  @ViewChild('store') store: HTMLElement;
+
+  scroll(id: number) {
+    console.log(id);
+    if (id == 1)
+      this.store.scrollIntoView({ behavior: 'smooth' });
+  }
 }

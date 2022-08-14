@@ -1,0 +1,70 @@
+.main {
+    height: 400px;
+    width: 250px;
+    background-color: #c1def0;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+img {
+    margin-top: 25px;
+    border-radius: 25px;
+    width: 200px;
+    height: 200px;
+}
+
+.price {
+    position: absolute;
+    font-weight: bold;
+    background-color: #4ba4da;
+    padding: 0.5em;
+    border-radius: 1em;
+    top: -1em;
+    left: -1em;
+}
+
+
+.rating {
+    display: flex;
+    font-size: 30px;
+    color: #172040;
+    flex-direction: row;
+    font-weight: bold;
+}
+
+.rating p:first-child {
+    color: yellow;
+}
+
+.description {
+    padding: 0 5px;
+}
+
+a {
+    position: absolute;
+    font-weight: bold;
+    background-color: #4ba4da;
+    padding: 0.5em;
+    border-radius: 1em;
+    bottom: -1em;
+    right: -1em;
+    color: #172040;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #172040;
+}
+
+h3 {
+    border-bottom: #fcfcfc solid 0.2em;
+    margin-bottom: 15px
+}
+
+p {
+    text-align: center;
+}

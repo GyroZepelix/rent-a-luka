@@ -1,0 +1,52 @@
+/*
+#172040
+#fcfcfc
+#c1def0
+#86c1e5
+#4ba4da 
+*/
+
+div {
+    background-color: #172040;
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+a {
+    font-family: "Mate";
+    text-decoration: none;
+    color: #c1def0;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+a:last-child {
+    margin-right: 0;
+}
+
+a:visited {
+    color: #c1def0;
+}
+
+.img1 {
+    height: 25%;
+    display: block;
+}
+
+.img2 {
+    height: 60%;
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .img1 {
+        display: none;
+    }
+
+    .img2 {
+        display: block;
+    }
+
+}

@@ -1,0 +1,71 @@
+/*
+#172040
+#fcfcfc
+#c1def0
+#86c1e5
+#4ba4da
+*/
+
+@keyframes text {
+    0% {
+        right: 10%;
+    }
+
+    100% {
+        right: 0;
+    }
+}
+
+@keyframes additional {
+    0% {
+        left: 10%;
+    }
+
+    100% {
+        left: 0;
+    }
+}
+
+header {
+    padding: 90px 0%;
+    background-color: #4ba4da;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    height: auto;
+    color: #fcfcfc;
+    width: 100%;
+    justify-content: space-evenly;
+
+}
+
+h2 {
+    font-family: "Mate";
+    text-align: center;
+}
+
+p {
+    font-family: "Numans";
+    text-align: center;
+    margin-top: 2em;
+}
+
+.text {
+    position: relative;
+    align-self: center;
+    max-width: 600px;
+    animation-name: text;
+    animation-duration: 2s;
+}
+
+.additional {
+    margin-bottom: 40px;
+    position: relative;
+    animation-name: additional;
+    animation-duration: 2s;
+}
+
+.additional img {
+    width: 90vw;
+    max-width: 600px;
+    height: auto;
+}
