@@ -1,0 +1,166 @@
+/*
+#172040
+#fcfcfc
+#c1def0
+#86c1e5
+#4ba4da 
+*/
+
+app-header {
+    align-self: stretch;
+}
+
+.portrait {
+    width: 25vw;
+    max-width: 250px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10%;
+    min-width: 200px;
+}
+
+h1 {
+    font-family: "SourceSansPro";
+    font-size: 35px;
+    border-bottom: #4ba4da solid 3px;
+}
+
+h2 {
+    font-family: "Numans";
+    font-size: 25px;
+}
+
+.desc {
+    margin: 0% 5%;
+    font-size: 20px;
+    font-family: "Mate";
+    text-align: justify;
+    border-left: #4ba4da solid 3px;
+    padding-left: 10px;
+}
+
+main {
+    background-color: #c1def0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1vh;
+}
+
+.padTop {
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
+
+.alignEnd {
+    justify-content: space-between;
+    align-self: stretch;
+}
+
+.flexRow {
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flexCol {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mainDiv {
+    display: flex;
+    background-color: #fcfcfc;
+    max-width: 1000px;
+    width: 97.5vw;
+    border: #86c1e5 5px double;
+    height: auto;
+    border-radius: 25px;
+    padding-bottom: 50px;
+}
+
+.rating {
+    display: flex;
+    font-size: 40px;
+    color: #172040;
+    flex-direction: row;
+    font-weight: bold;
+}
+
+.rating p:first-child {
+    color: rgb(255, 251, 0);
+    text-shadow: #172040 0px 0px 5px;
+}
+
+.gap {
+    gap: 10px;
+}
+
+/* CSS */
+.button-19 {
+    appearance: button;
+    background-color: #1899D6;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: din-round, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    overflow: visible;
+    padding: 13px 16px;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.button-19:after {
+    background-clip: padding-box;
+    background-color: #1CB0F6;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    bottom: -4px;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.button-19:main,
+.button-19:focus {
+    user-select: auto;
+}
+
+.button-19:hover:not(:disabled) {
+    filter: brightness(1.1);
+    -webkit-filter: brightness(1.1);
+}
+
+.button-19:disabled {
+    cursor: auto;
+}

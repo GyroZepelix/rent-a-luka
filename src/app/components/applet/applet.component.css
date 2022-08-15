@@ -15,6 +15,7 @@ img {
     border-radius: 25px;
     width: 200px;
     height: 200px;
+    object-fit: cover
 }
 
 .price {
@@ -37,11 +38,12 @@ img {
 }
 
 .rating p:first-child {
-    color: yellow;
+    color: rgb(255, 251, 0);
+    text-shadow: #172040 0px 0px 5px;
 }
 
 .description {
-    padding: 0 5px;
+    padding: 0 10px;
 }
 
 a {
@@ -66,5 +68,5 @@ h3 {
 }
 
 p {
-    text-align: center;
+    text-align: justify;
 }

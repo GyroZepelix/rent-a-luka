@@ -1,0 +1,26 @@
+<main>
+    <app-header></app-header>
+    <div class="mainDiv flexCol">
+        <div class="flexRow padTop">
+            <img class="portrait" src="{{thePerson.imagePath}}" alt="">
+            <div class="flexCol alignEnd">
+                <div class="flexCol">
+                    <h1>{{thePerson.name}} {{thePerson.surname}} - [{{thePerson.age}}]</h1>
+                    <div class="rating">
+                        <p>{{ratingY}}</p>
+                        <p>{{ratingN}}</p>
+                    </div>
+                </div>
+                <div class="flexCol gap">
+                    <h2>${{thePerson.price}}.00</h2>
+                    <button class="button-19" role="button" (click)="buyNowClick(thePerson.id)">Buy now!</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="padTop">
+            <p class="desc">{{thePerson.description}}</p>
+        </div>
+
+    </div>
+</main>
